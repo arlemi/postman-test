@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c47b158e-818c-4a05-a1ed-604319f737d5",
+		"_postman_id": "db7291c6-cc25-4e82-a713-ca938b84c6e5",
 		"name": "c1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -11,7 +11,7 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "6340d8fd-bc1f-4ada-a94b-a29596cdf052",
+						"id": "b8c2515f-5d2e-4f9f-8d3f-21941f004e9b",
 						"exec": [
 							"pm.environment.set('test', 'value1')",
 							"pm.environment.set('test', 'value2')",
@@ -24,7 +24,7 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "43dbd24a-ea93-462b-af00-f2217c30d4ce",
+						"id": "edc4017a-f27e-4201-88aa-2da4994fb91d",
 						"exec": [
 							"pm.environment.set('test', 'value1')",
 							"pm.environment.set('test', 'value2')",
@@ -47,7 +47,8 @@
 					"path": [
 						"get"
 					]
-				}
+				},
+				"description": "desc"
 			},
 			"response": []
 		}
