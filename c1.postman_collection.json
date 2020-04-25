@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "db7291c6-cc25-4e82-a713-ca938b84c6e5",
+		"_postman_id": "064c7c96-eb44-431c-8015-a48438b08163",
 		"name": "c1",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -48,7 +48,7 @@
 						"get"
 					]
 				},
-				"description": "desc2 update"
+				"description": "desc2 update from old version"
 			},
 			"response": []
 		}
