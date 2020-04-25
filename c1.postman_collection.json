@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "77d23435-0270-4059-a4da-cf898127f43a",
+		"name": "c1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "efaedb4b-bd95-4b17-b1cf-7e4df944e170",
+						"exec": [
+							"pm.environment.set('test', 'value1')",
+							"pm.environment.set('test', 'value2')"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "52818529-17b5-4e0f-a2a8-f13c474cd381",
+						"exec": [
+							"pm.environment.set('test', 'value1')",
+							"pm.environment.set('test', 'value2')"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "postman-echo.com/get",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
